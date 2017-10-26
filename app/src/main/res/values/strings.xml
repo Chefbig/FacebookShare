@@ -1,4 +1,55 @@
 <resources>
     <string name="app_name">FacebookShare</string>
     <string name="facebook_app_id">163846387535723</string>
+    <string name="fb_login_protocol_scheme">fb163846387535723</string>
+    <string name="welcome">welcome!</string>
+    <string name="permissions">permissions</string>
+    <string name="de_authorize_app">de_authorize_app</string>
+    <string name="app_not_logged_in">app_not_logged_in</string>
+    <string name="failed_to_deauth">"failed to deauthorize app %1s"</string>
+    <string name="success">success</string>
+    <string name="cancel">cancel</string>
+    <string name="error">error</string>
+
+    <string-array name="perms_array">
+        // User Data Permissions
+        <item>basic_info</item>
+        <item>public_profile</item>
+        <item>email</item>
+        <item>publish_actions</item>
+        <item>user_about_me</item>
+        <item>user_activities</item>
+        <item>user_birthday</item>
+        <item>user_mobile_phone</item>
+        <item>user_education_history</item>
+        <item>user_friends</item>
+        <item>user_games_activity</item>
+        <item>user_hometown</item>
+        <item>user_interests</item>
+        <item>user_likes</item>
+        <item>user_location</item>
+        <item>user_photos</item>
+        <item>user_posts</item>
+        <item>user_relationship_details</item>
+        <item>user_relationships</item>
+        <item>user_religion_politics</item>
+        <item>user_status</item>
+        <item>user_tagged_places</item>
+        <item>user_videos</item>
+        <item>user_website</item>
+        <item>user_work_history</item>
+
+        // Other Permissions
+        <item>manage_notifications</item>
+        <item>read_custom_friendlists</item>
+        <item>read_insights</item>
+        <item>read_mailbox</item>
+        <item>read_stream</item>
+        <item>read_audience_network_insights</item>
+
+        // Privacy
+        <item>ONLY_ME</item>
+        <item>FRIENDS</item>
+        <item>EVERYONE</item>
+    </string-array>
 </resources>
